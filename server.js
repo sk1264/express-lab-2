@@ -32,8 +32,6 @@ app.get('/magic/:question', (req, res) => {
     res.send(`<h1> Ask the Magic 8 Ball: ${question} </h1> <h1>Your response: ${response}</h1>`);
   });
 
-// pass it around
-
 app.listen(3000, () => {
     console.log('Server listening on port 3000');
   });
